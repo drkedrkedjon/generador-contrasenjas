@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  color: whitesmoke;
+}
+
+main {
+  background-color: rgb(33, 41, 54);
+  padding: 4rem 2rem;
+  border-radius: 20px;
+  border: 5px solid rgb(120, 220, 142);
+}
+
+h1 span {
+  color: rgb(120, 220, 142);
+  display: block;
+}
