@@ -6,14 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Generador de Contraseñas</title>
   <link rel="stylesheet" href="css.css">
-  <script src="js.js"></script>
+  <script defer src="javasript.js"></script>
 </head>
 <body>
   <main>
     <h1>Generate a <span>random password</span></h1>
     <p>Never use an insecure password again.</p>
-    <button>Generate passwords</button>
+    <button id="btn" class="btn">Generate passwords</button>
     <div>
+      <label for="usuario-pass-longitud">Elije la longitud (Min: 10 / Max: 20)</label>
+      <input id="usuario-pass-longitud" class="usuario-pass-longitud" value="15" min="10" max="20" type="number">
+    </div>
+    <div id="pass-html" class="pass-container">
       <p>password</p>
       <p>password</p>
     </div>

@@ -9,16 +9,71 @@ body {
   place-items: center;
   height: 100vh;
   color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main > p {
+  color: #999;
+  padding-top: 0.8rem;
+}
+
+h1 {
+  line-height: 2rem;
 }
 
 main {
   background-color: rgb(33, 41, 54);
   padding: 4rem 2rem;
   border-radius: 20px;
-  border: 5px solid rgb(120, 220, 142);
+  border: 3px solid rgb(120, 220, 142);
+  min-width: 500px;
 }
 
 h1 span {
   color: rgb(120, 220, 142);
   display: block;
+}
+
+.btn {
+  background-color: rgb(120, 220, 142);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border: none;
+  color: #222;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.pass-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid rgb(42, 53, 71);
+  padding-top: 1rem;
+  gap: 1rem;
+  min-width: 350px;
+  margin-top: 2rem;
+}
+.pass-container > p {
+  flex-grow: 1;
+  background-color: rgb(42, 53, 71);
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+  color: rgb(120, 220, 142);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.usuario-pass-longitud {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+label {
+  font-size: 0.7rem;
+  color: #999;
 }
